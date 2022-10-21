@@ -51,7 +51,7 @@ void GetFileNames(string path, vector<string>& filenames)
 
 int main(){
 	vector<string> filenames;
-	string path = "F:\\My_app\\meter-reader-cpp\\meter-reader\\data\\data_test";
+	string path = "./data/data_test";
 	GetFileNames(path, filenames);
 	for (int i = 0; i < filenames.size(); i++){
 		// image segmentation test
