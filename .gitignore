@@ -33,6 +33,7 @@
 
 # image files
 data/*
+temp/*
 # model files
 *.onnx
 # vscode config files
