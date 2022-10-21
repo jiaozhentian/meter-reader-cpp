@@ -5,7 +5,7 @@
 #include "yolov5_dnn.h"
 #include "distortion_correction.h"
 
-#define DETECTION_MODEL_PATH "F:\\My_app\\meter-reader-cpp\\meter-reader\\models\\value.onnx"
+#define DETECTION_MODEL_PATH "./models/value.onnx"
 
 void CorrectionWithPath(string imagePath, string savePath) {
 	// create the value detection class
